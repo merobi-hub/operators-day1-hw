@@ -1,0 +1,272 @@
+body {
+}
+a { 
+  text-decoration: none;
+}
+p {
+  color: white;
+  margin: 1px;
+  padding: 1px;
+}
+#ribbon {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue World", Arial, sans-serif;
+  font-size: 30px;
+  text-align: left;
+  left: 25%;
+}
+.flexcontainer0 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+#header {
+  height: 140px;
+  width: 100%;
+  color: black;
+  font-family: "Helvetica Neue World", Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+#banner {
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+#image {
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+#bannertext {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-family: "Helvetica Neue World", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  left: 25%; 
+  top: 15px;
+}
+#intereststext {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-family: "Helvetica Neue World", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  right: 25%; 
+  bottom: 110px;
+}
+#booktext {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-family: "Helvetica Neue World", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  right: 25%; 
+  bottom: 220px;
+}
+#abouttext {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-family: "Helvetica Neue World", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  right: 25%; 
+  bottom: 330px;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+}  
+#app {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 31.25%;
+  margin-top: 2.5%; 
+  margin-bottom: 1.25%;
+  margin-right: 1.25%;
+  margin-left: 25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+#appsimg {
+  height: 183px;
+  width: 99.5%;
+  object-fit: fill;
+}
+#aboutimg {
+  height: 183px;
+  object-fit: scale-down;
+}
+#about {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 16.25%;
+  margin-top: 2.5%; 
+  margin-bottom: 1.25%;
+  margin-right: 25%;
+  margin-left: 1.25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+}  
+#ecommerce {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 23.75%;
+  margin-top: 1.25%; 
+  margin-bottom: 1.25%;
+  margin-right: 1.25%;
+  margin-left: 25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+#ecommerceimg {
+  height: 183px;
+  width: 99.5%;
+  object-fit: scale-down;
+}
+#writing {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 23.75%;
+  margin-top: 1.25%; 
+  margin-bottom: 1.25%;
+  margin-right: 25%;
+  margin-left: 1.25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+#writingimg {
+  height: 183px;
+  width: 99.5%;
+  text-align: left;
+  object-fit: scale-down;
+}  
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+} 
+#book {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 8.75%;
+  margin-top: 1.25%; 
+  margin-bottom: 2.5%;
+  margin-right: 1.25%;
+  margin-left: 25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+#bookimg {
+  height: 183px;
+  width: 99.5%;
+  object-fit: scale-up;
+}
+#teaching {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 22.25%;
+  margin-top: 1.25%; 
+  margin-bottom: 2.5%;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+#teachingimg {
+  height: 183px;
+  width: 99.5%;
+  text-align: left;
+  background-color: white;
+  padding-right: 1.25%;
+  object-fit: scale-down;
+}
+#interests {
+  text-align: left;
+  font-family: "DejaVu Sans Mono", "Helvetica Neue World", Arial, sans-serif;
+  color: white;
+  height: 300px;
+  width: 14%;
+  margin-top: 1.25%; 
+  margin-bottom: 2.5%;
+  margin-right: 25%;
+  margin-left: 1.25%;
+  padding-top: 1.25%;
+  padding-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-right: 1.25%; 
+  background-color: black;
+  box-sizing: border-box;
+}
+#interestsimg {
+  height: 183px;
+  width: 99.5%;
+  text-align: left;
+  padding-right: 1.25%;
+  object-fit: scale-down;
+}
+
+#main {
+  margin: 0%;
+  background: url(images/iron_railing.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
